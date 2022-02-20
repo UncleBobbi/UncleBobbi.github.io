@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    // border: 1px solid #000;
+
+    &:after,
+    &:before {
+        box-sizing: border-box;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    // overflow: hidden;
+}
+
+.container_center {
+    width: 100%;
+    max-width: 1142px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mobile {
+    @media (min-width: 992px) {
+        display: none !important;
+    }
+}
+
+.desktop {
+    @media (max-width: 991px) {
+        display: none !important;
+    }
+}

@@ -1,0 +1,10 @@
+.logo {
+    flex: none;
+    // flex-grow: 1;
+    // text-align: center;
+
+    @media (min-width: 1200px) {
+        margin-right: 90px;
+        // flex-grow: 0;
+    }
+}
