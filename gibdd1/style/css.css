@@ -167,7 +167,7 @@ ul {
 
 }
 
-/* .accordeon__title:after {
+.accordeon__title:after {
 	content: '';
 	position: relative;
 	display: block;
@@ -183,7 +183,7 @@ ul {
 
 .open .accordeon__title:after {
 	transform: rotate(225deg);
-} */
+}
 
 .accordeon__text {
 	color: #212841;
